@@ -1,0 +1,11 @@
+upstream	downstream
+& trip-hvwest-switch	(
+& trip-hvwest-switch	)
+(	)
+ehv-east	ehv-west
+ehv-east	hv-east
+ehv-east	remote-ehv-2
+ehv-west	hv-west
+ehv-west	remote-ehv-1
+hv-east	switch
+hv-west	switch

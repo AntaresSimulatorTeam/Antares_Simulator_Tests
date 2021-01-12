@@ -1,0 +1,10 @@
+id	name
+& avail_box	& AVAIL_BOX
+& trip-ew	& TRIP-ew
+& trip-nw	& TRIP-nw
+(	(
+)	)
+east	EAST
+north	NORTH
+south	SOUTH
+west	WEST

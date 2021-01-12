@@ -1,0 +1,11 @@
+virtual-exchange-capa	area	de	monthly
+	VARIABLES	BEGIN	END
+	6	1	4
+
+virtual-exchange-capa	monthly		hvdc-area-1-2	hvdc-area-1-3	hvdc-area-1-2	hvdc-area-1-3	hvdc-area-1-2	hvdc-area-1-3
+			MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+	index	month	EXP	EXP	EXP	EXP	EXP	EXP
+	1	JAN	510720	1411200	0	0	730	1411
+	2	FEB	443520	1310400	0	0	634	1310
+	3	MAR	470400	1406400	0	0	672	1406
+	4	APR	16800	48000	0	0	24	48

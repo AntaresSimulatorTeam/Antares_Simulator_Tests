@@ -1,0 +1,11 @@
+& AVAIL_BOX	area	de	monthly
+	VARIABLES	BEGIN	END
+	6	1	4
+
+& AVAIL_BOX	monthly		EW_avail	NW_avail	EW_avail	NW_avail	EW_avail	NW_avail
+			MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+	index	month	EXP	EXP	EXP	EXP	EXP	EXP
+	1	JAN	7008000	7296000	0	0	701	730
+	2	FEB	6576000	6576000	0	0	658	658
+	3	MAR	7008000	7440000	0	0	701	744
+	4	APR	240000	240000	0	0	24	24

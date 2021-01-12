@@ -1,0 +1,8 @@
+NORTH	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+NORTH	annual	base	peak	semi base	base	peak	semi base	base	peak	semi base
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	88940063	510050	18050844	94577950	505840	79557900	94522	2139	78859

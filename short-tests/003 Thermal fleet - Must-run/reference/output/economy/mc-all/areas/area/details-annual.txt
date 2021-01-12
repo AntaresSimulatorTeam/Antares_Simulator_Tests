@@ -1,0 +1,8 @@
+AREA	area	de	annual
+	VARIABLES	BEGIN	END
+	12	1	1
+
+AREA	annual	base	non-dispatchable semi base	peak	semi base	base	non-dispatchable semi base	peak	semi base	base	non-dispatchable semi base	peak	semi base
+		MWh	MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	569535	50400	9682	75324	0	0	0	0	672	168	113	320

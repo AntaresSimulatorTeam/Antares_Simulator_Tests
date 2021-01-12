@@ -1,0 +1,8 @@
+& AVAIL_BOX	area	de	annual
+	VARIABLES	BEGIN	END
+	6	1	1
+
+& AVAIL_BOX	annual	EW_avail	NW_avail	EW_avail	NW_avail	EW_avail	NW_avail
+		MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	20832000	21552000	0	0	2083	2155

@@ -1,0 +1,2 @@
+id	name
+solar gen node	SOLAR GEN NODE

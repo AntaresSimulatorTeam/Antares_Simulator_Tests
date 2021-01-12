@@ -1,0 +1,8 @@
+NODE 3	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+NODE 3	annual	aggregate 1	aggregate 2	aggregate 3	aggregate 1	aggregate 2	aggregate 3	aggregate 1	aggregate 2	aggregate 3
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	6209683	4361360	2299210	0	0	0	63814	46316	25825

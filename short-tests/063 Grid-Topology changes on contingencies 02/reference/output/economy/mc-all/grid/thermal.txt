@@ -1,0 +1,4 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+& avail_box	ehvwest-switch	EHVWEST-SWITCH	Other	1	10000.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+remote-ehv-1	sb-lowprice	sb-lowprice	Other	12	500.000000	0.000000	3	3	0.000000	0.000000	50.000000	0.000000	0.000000	50.000000	0.500000
+remote-ehv-2	sb-high price	sb-high price	Other	12	500.000000	0.000000	3	3	0.000000	0.000000	70.000000	0.000000	0.000000	70.000000	0.500000

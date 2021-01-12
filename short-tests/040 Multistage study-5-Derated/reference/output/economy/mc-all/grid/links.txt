@@ -1,0 +1,10 @@
+upstream	downstream
+east	hub e
+hub e	hub n
+hub e	hub s
+hub e	hub w
+hub n	hub w
+hub n	north
+hub s	hub w
+hub s	south
+hub w	west

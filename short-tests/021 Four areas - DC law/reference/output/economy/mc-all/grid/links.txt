@@ -1,0 +1,6 @@
+upstream	downstream
+east	north
+east	south
+east	west
+north	west
+south	west

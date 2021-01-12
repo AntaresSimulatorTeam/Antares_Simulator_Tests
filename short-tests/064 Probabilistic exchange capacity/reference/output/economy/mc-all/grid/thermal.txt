@@ -1,0 +1,4 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+area-1	power_plant	power_plant	Other	50	1000.000000	0.000000	1	1	0.000000	0.000000	14.000000	0.000000	0.000000	14.000000	0.000000
+virtual-exchange-capa	hvdc-area-1-2	hvdc-area-1-2	Other	1	700.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+virtual-exchange-capa	hvdc-area-1-3	hvdc-area-1-3	Other	2	1000.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000

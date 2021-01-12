@@ -1,0 +1,5 @@
+id	name
+area-1	area-1
+area-2	area-2
+area-3	area-3
+virtual-exchange-capa	virtual-exchange-capa

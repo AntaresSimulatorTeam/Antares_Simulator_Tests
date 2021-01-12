@@ -1,0 +1,9 @@
+id	name
+east	EAST
+hub e	hub E
+hub n	hub N
+hub s	hub S
+hub w	hub W
+north	NORTH
+south	SOUTH
+west	WEST

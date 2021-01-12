@@ -1,0 +1,5 @@
+upstream	downstream
+& psp-hub	& psp-in
+& psp-hub	& psp-out
+& psp-hub	west
+east	west

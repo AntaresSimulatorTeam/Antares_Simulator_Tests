@@ -1,0 +1,8 @@
+west	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+west	annual	BASE	coal	oil	BASE	coal	oil	BASE	coal	oil
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	11904046	15049838	0	0	0	0	15850	59866	0

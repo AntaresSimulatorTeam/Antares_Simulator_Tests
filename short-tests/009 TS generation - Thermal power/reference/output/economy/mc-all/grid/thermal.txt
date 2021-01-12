@@ -1,0 +1,4 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+ther node	base	base	Other	4	500.000000	0.000000	1	1	5.000000	1.100000	40.000000	0.000000	0.000000	40.000000	0.000000
+ther node	peak	peak	Oil	5	300.000000	0.000000	1	1	5.000000	0.700000	80.000000	0.000000	0.000000	80.000000	0.000000
+ther node	semi	semi	Gas	10	600.000000	0.000000	1	1	0.000000	0.500000	60.000000	0.000000	0.000000	60.000000	0.000000

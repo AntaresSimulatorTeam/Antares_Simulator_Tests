@@ -1,0 +1,4 @@
+id	name
+wind power 1	WIND POWER 1
+wind power-2	WIND POWER-2
+wind power-3	WIND POWER-3

@@ -1,0 +1,4 @@
+upstream	downstream
+hub	main system
+hub	psp-in
+hub	psp-out

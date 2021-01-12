@@ -1,0 +1,8 @@
+LOAD NODE	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+LOAD NODE	annual	default	default	default
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	0	0	0

@@ -1,0 +1,6 @@
+id	name
+east	EAST
+left	LEFT
+north	NORTH
+right	RIGHT
+west	WEST

@@ -1,0 +1,4 @@
+id	name
+& psp	& PSP
+east	east
+west	west
