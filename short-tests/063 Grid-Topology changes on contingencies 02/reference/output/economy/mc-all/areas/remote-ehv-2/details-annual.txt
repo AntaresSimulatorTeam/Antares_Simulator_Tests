@@ -1,0 +1,8 @@
+REMOTE-EHV-2	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+REMOTE-EHV-2	annual	sb-high price	sb-high price	sb-high price
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	1025280	0	2976

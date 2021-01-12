@@ -1,0 +1,11 @@
+west	area	de	monthly
+	VARIABLES	BEGIN	END
+	9	1	4
+
+west	monthly		b	p	sb	b	p	sb	b	p	sb
+			MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+	index	month	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	1	JAN	2988413	1953	152346	0	0	0	3931	11	466
+	2	FEB	2877853	15357	204328	0	0	0	3451	84	624
+	3	MAR	3538567	2824	253987	0	0	0	4056	15	797
+	4	APR	122334	0	0	0	0	0	144	0	0

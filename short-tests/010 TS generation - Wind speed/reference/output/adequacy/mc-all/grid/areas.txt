@@ -1,0 +1,4 @@
+id	name
+wind speed node 1	WIND SPEED NODE 1
+wind speed node-2	WIND SPEED NODE-2
+wind speed node-3	WIND SPEED NODE-3

@@ -1,0 +1,5 @@
+id	name
+hub	hub
+main system	MAIN SYSTEM
+psp-in	PSP-IN
+psp-out	PSP-OUT

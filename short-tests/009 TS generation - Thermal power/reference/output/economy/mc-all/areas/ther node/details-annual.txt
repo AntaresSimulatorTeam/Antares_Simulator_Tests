@@ -1,0 +1,8 @@
+THER NODE	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+THER NODE	annual	base	peak	semi	base	peak	semi	base	peak	semi
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	11341200	0	3634800	0	0	0	32184	0	8256

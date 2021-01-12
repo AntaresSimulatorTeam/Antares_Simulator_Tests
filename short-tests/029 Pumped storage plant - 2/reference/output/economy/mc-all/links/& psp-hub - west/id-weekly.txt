@@ -1,0 +1,20 @@
+& PSP-HUB	link	id	weekly
+west	VARIABLES	BEGIN	END
+	12	1	13
+
+& PSP-HUB	weekly	FLOW LIN.	FLOW LIN.	UCAP LIN.	UCAP LIN.	CONG. FEE (ALG.)	CONG. FEE (ALG.)	CONG. FEE (ABS.)	CONG. FEE (ABS.)	MARG. COST	MARG. COST	HURDLE COST	HURDLE COST
+		MWh	MWh	MWh	MWh	Euro	Euro	Euro	Euro	Euro/MW	Euro/MW	Euro	Euro
+	week	min	max	min	max	min	max	min	max	min	max	min	max
+	1	4	3	3	1	1	1	1	1	1	1	1	1
+	2	1	4	4	1	1	1	1	1	1	1	1	1
+	3	5	4	4	1	1	1	1	1	1	1	1	1
+	4	1	5	5	1	1	1	1	1	1	1	1	1
+	5	4	3	3	2	1	1	1	1	1	1	1	1
+	6	5	2	2	4	1	1	1	1	1	1	1	1
+	7	2	5	5	2	1	1	1	1	1	1	1	1
+	8	5	4	4	3	1	1	1	1	1	1	1	1
+	9	1	5	5	4	1	1	1	1	1	1	1	1
+	10	2	4	4	2	1	1	1	1	1	1	1	1
+	11	5	2	2	5	1	1	1	1	1	1	1	1
+	12	3	1	1	3	1	1	1	1	1	1	1	1
+	13	2	4	4	2	1	1	1	1	1	1	1	1

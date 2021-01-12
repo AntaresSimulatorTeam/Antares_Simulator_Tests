@@ -1,0 +1,66 @@
+	digest
+	VARIABLES	AREAS	LINKS
+	35	11	0
+
+		OV. COST	OP. COST	MRG. PRICE	CO2 EMIS.	BALANCE	ROW BAL.	PSP	MISC. NDG	LOAD	H. ROR	WIND	SOLAR	NUCLEAR	LIGNITE	COAL	GAS	OIL	MIX. FUEL	MISC. DTG	H. STOR	H. PUMP	H. LEV	H. INFL	H. OVFL	H. VAL	H. COST	UNSP. ENRG	SPIL. ENRG	LOLD	LOLP	AVL DTG	DTG MRG	MAX MRG	NP COST	NODU
+		Euro	Euro	Euro	Tons	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	%	MWh	%	Euro/MWh	Euro	MWh	MWh	Hours	%	MWh	MWh	MWh	Euro	 
+		EXP	EXP	EXP	EXP	EXP	values	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	values	EXP	EXP	EXP	EXP	EXP
+	& avail_box	0	0	-0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	82176000	0	0	N/A	0	N/A	N/A	0	0	82176000	0	0	82176000	0	82176000	0	0
+	& trip-hvwest-switch	0	0	-0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	(	0	0	-0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	)	0	0	-0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	ehv-east	0	0	69.90	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	ehv-west	0	0	50.21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	hv-east	0	0	109.28	0	-3494400	0	0	0	3494400	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	hv-west	0	0	-8.86	0	-3494400	0	0	0	3494400	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+	remote-ehv-1	1657296000	1657296000	50.21	0	33145920	0	0	0	0	0	0	0	0	0	0	0	0	0	33145920	0	0	N/A	0	N/A	N/A	0	0	0	0	0	46308000	13162080	13162080	0	0
+	remote-ehv-2	615081600	615081600	69.90	0	-21789120	0	0	0	30576000	0	0	0	0	0	0	0	0	0	8786880	0	0	N/A	0	N/A	N/A	0	0	0	0	0	46044000	37257120	37257120	0	0
+	switch	0	0	148.65	0	-4368000	0	0	0	4368000	0	0	0	0	0	0	0	0	0	0	0	0	N/A	0	N/A	N/A	0	0	0	0	0	0	0	0	0	0
+
+
+	digest
+	VARIABLES	AREAS	LINKS
+	35	1	0
+
+		OV. COST	OP. COST	MRG. PRICE	CO2 EMIS.	BALANCE	ROW BAL.	PSP	MISC. NDG	LOAD	H. ROR	WIND	SOLAR	NUCLEAR	LIGNITE	COAL	GAS	OIL	MIX. FUEL	MISC. DTG	H. STOR	H. PUMP	H. LEV	H. INFL	H. OVFL	H. VAL	H. COST	UNSP. ENRG	SPIL. ENRG	LOLD	LOLP	AVL DTG	DTG MRG	MAX MRG	NP COST	NODU
+		Euro	Euro	Euro	Tons	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	%	MWh	%	Euro/MWh	Euro	MWh	MWh	Hours	%	MWh	MWh	MWh	Euro	 
+		EXP	EXP	EXP	EXP	EXP	values	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	values	EXP	EXP	EXP	EXP	EXP
+	@ All areas	2272377600	2272377600	44.48	0	0	0	0	0	41932800	0	0	0	0	0	0	0	0	0	124108800	0	0	N/A	0	N/A	N/A	0	0	82176000	0	0	174528000	50419200	132595200	0	95578
+
+
+
+
+
+
+	Links (FLOW LIN.)
+		From...
+	...To	& avail_box	& trip-hvwest-switch	(	)	ehv-east	ehv-west	hv-east	hv-west	remote-ehv-1	remote-ehv-2	switch
+	& avail_box	X	--	--	--	--	--	--	--	--	--	--
+	& trip-hvwest-switch	--	X	0	0	--	--	--	--	--	--	--
+	(	--	0	X	0	--	--	--	--	--	--	--
+	)	--	0	0	X	--	--	--	--	--	--	--
+	ehv-east	--	--	--	--	X	25288608	-3499488	--	--	-21789120	--
+	ehv-west	--	--	--	--	-25288608	X	--	-7857312	33145920	--	--
+	hv-east	--	--	--	--	3499488	--	X	--	--	--	-5088
+	hv-west	--	--	--	--	--	7857312	--	X	--	--	-4362912
+	remote-ehv-1	--	--	--	--	--	-33145920	--	--	X	--	--
+	remote-ehv-2	--	--	--	--	21789120	--	--	--	--	X	--
+	switch	--	--	--	--	--	--	5088	4362912	--	--	X
+
+
+
+
+	Links (FLOW QUAD.)
+		From...
+	...To	& avail_box	& trip-hvwest-switch	(	)	ehv-east	ehv-west	hv-east	hv-west	remote-ehv-1	remote-ehv-2	switch
+	& avail_box	X	--	--	--	--	--	--	--	--	--	--
+	& trip-hvwest-switch	--	X	0	0	--	--	--	--	--	--	--
+	(	--	0	X	0	--	--	--	--	--	--	--
+	)	--	0	0	X	--	--	--	--	--	--	--
+	ehv-east	--	--	--	--	X	25283869	-3494749	--	--	-21789120	--
+	ehv-west	--	--	--	--	-25283869	X	--	-7862051	33145920	--	--
+	hv-east	--	--	--	--	3494749	--	X	--	--	--	-349
+	hv-west	--	--	--	--	--	7862051	--	X	--	--	-4367651
+	remote-ehv-1	--	--	--	--	--	-33145920	--	--	X	--	--
+	remote-ehv-2	--	--	--	--	21789120	--	--	--	--	X	--
+	switch	--	--	--	--	--	--	349	4367651	--	--	X

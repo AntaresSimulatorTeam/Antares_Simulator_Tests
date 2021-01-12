@@ -1,0 +1,19 @@
+WIND POWER-3	area	de	monthly
+	VARIABLES	BEGIN	END
+	1	1	12
+
+WIND POWER-3	monthly		default
+			MWh
+	index	month	EXP
+	1	JAN	0
+	2	FEB	0
+	3	MAR	0
+	4	APR	0
+	5	MAY	0
+	6	JUN	0
+	7	JUL	0
+	8	AUG	0
+	9	SEP	0
+	10	OCT	0
+	11	NOV	0
+	12	DEC	0

@@ -1,0 +1,6 @@
+id	name
+& psp-hub	& PSP-HUB
+& psp-in	& PSP-IN
+& psp-out	& PSP-OUT
+east	east
+west	west

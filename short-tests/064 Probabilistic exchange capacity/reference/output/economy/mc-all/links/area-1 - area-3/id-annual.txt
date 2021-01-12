@@ -1,0 +1,8 @@
+area-1	link	id	annual
+area-3	VARIABLES	BEGIN	END
+	12	1	1
+
+area-1	annual	FLOW LIN.	FLOW LIN.	UCAP LIN.	UCAP LIN.	CONG. FEE (ALG.)	CONG. FEE (ALG.)	CONG. FEE (ABS.)	CONG. FEE (ABS.)	MARG. COST	MARG. COST	HURDLE COST	HURDLE COST
+		MWh	MWh	MWh	MWh	Euro	Euro	Euro	Euro	Euro/MW	Euro/MW	Euro	Euro
+		min	max	min	max	min	max	min	max	min	max	min	max
+	Annual	4	1	4	1	4	5	4	5	1	1	1	1

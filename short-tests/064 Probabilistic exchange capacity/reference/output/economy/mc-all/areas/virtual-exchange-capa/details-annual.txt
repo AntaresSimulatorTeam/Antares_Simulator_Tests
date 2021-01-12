@@ -1,0 +1,8 @@
+virtual-exchange-capa	area	de	annual
+	VARIABLES	BEGIN	END
+	6	1	1
+
+virtual-exchange-capa	annual	hvdc-area-1-2	hvdc-area-1-3	hvdc-area-1-2	hvdc-area-1-3	hvdc-area-1-2	hvdc-area-1-3
+		MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	1441440	4176000	0	0	2059	4176

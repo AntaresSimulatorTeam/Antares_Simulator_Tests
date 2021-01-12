@@ -1,0 +1,5 @@
+upstream	downstream
+ne	nw
+ne	se
+nw	sw
+se	sw

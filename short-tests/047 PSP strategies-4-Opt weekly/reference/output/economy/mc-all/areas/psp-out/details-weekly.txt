@@ -1,0 +1,20 @@
+PSP-OUT	area	de	weekly
+	VARIABLES	BEGIN	END
+	3	1	13
+
+PSP-OUT	weekly	virtual	virtual	virtual
+		MWh	NP Cost - Euro	NODU
+	week	EXP	EXP	EXP
+	1	0	0	0
+	2	0	0	0
+	3	0	0	0
+	4	0	0	0
+	5	0	0	0
+	6	0	0	0
+	7	0	0	0
+	8	0	0	0
+	9	0	0	0
+	10	0	0	0
+	11	0	0	0
+	12	0	0	0
+	13	0	0	0

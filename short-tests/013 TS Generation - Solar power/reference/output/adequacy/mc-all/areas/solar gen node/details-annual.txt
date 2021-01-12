@@ -1,0 +1,8 @@
+SOLAR GEN NODE	area	de	annual
+	VARIABLES	BEGIN	END
+	1	1	1
+
+SOLAR GEN NODE	annual	default
+		MWh
+		EXP
+	Annual	0

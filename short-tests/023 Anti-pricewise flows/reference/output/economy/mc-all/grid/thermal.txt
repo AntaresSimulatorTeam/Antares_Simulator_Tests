@@ -1,0 +1,5 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+ne	default	default	Other	1	120.000000	0.000000	1	1	0.000000	0.000000	90.000000	0.000000	0.000000	90.000000	0.000000
+nw	default	default	Other	1	2500.000000	0.000000	1	1	0.000000	0.000000	10.000000	0.000000	0.000000	10.000000	0.000000
+se	default	default	Other	1	120.000000	0.000000	1	1	0.000000	0.000000	20.000000	0.000000	0.000000	20.000000	0.000000
+sw	default	default	Other	1	120.000000	0.000000	1	1	0.000000	0.000000	100.000000	0.000000	0.000000	100.000000	0.000000

@@ -1,0 +1,8 @@
+UNLOAD	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+UNLOAD	annual	shedding	shedding	shedding
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	1723772	0	738

@@ -1,0 +1,3 @@
+upstream	downstream
+& psp	west
+east	west

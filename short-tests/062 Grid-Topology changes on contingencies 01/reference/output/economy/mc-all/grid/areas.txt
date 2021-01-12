@@ -1,0 +1,12 @@
+id	name
+& avail_box	& AVAIL_BOX
+& trip-hvwest-switch	& TRIP-HVWEST-SWITCH
+(	(
+)	)
+ehv-east	EHV-EAST
+ehv-west	EHV-WEST
+hv-east	HV-EAST
+hv-west	HV-WEST
+remote-ehv-1	REMOTE-EHV-1
+remote-ehv-2	REMOTE-EHV-2
+switch	SWITCH

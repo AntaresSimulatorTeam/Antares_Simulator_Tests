@@ -1,0 +1,8 @@
+REMOTE-EHV-1	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+REMOTE-EHV-1	annual	sb-lowprice	sb-lowprice	sb-lowprice
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	33145920	0	69744

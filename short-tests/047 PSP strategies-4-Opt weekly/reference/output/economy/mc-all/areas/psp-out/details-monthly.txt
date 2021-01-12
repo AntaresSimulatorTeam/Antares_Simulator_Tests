@@ -1,0 +1,11 @@
+PSP-OUT	area	de	monthly
+	VARIABLES	BEGIN	END
+	3	1	4
+
+PSP-OUT	monthly		virtual	virtual	virtual
+			MWh	NP Cost - Euro	NODU
+	index	month	EXP	EXP	EXP
+	1	JAN	0	0	0
+	2	FEB	0	0	0
+	3	MAR	0	0	0
+	4	APR	0	0	0

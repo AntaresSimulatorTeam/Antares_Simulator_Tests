@@ -1,0 +1,14 @@
+AREA	area	de	daily
+	VARIABLES	BEGIN	END
+	9	1	7
+
+AREA	daily			base	peak	semi base	base	peak	semi base	base	peak	semi base
+				MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+	index	day	month	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	1	01	JAN	84259	229	19205	0	0	0	96	4	90
+	2	02	JAN	86111	6350	29198	0	0	0	96	70	120
+	3	03	JAN	86296	2767	25908	0	0	0	96	33	120
+	4	04	JAN	80755	0	10728	0	0	0	96	0	120
+	5	05	JAN	83558	336	18309	0	0	0	96	6	120
+	6	06	JAN	69787	0	7931	0	0	0	96	0	120
+	7	07	JAN	78769	0	14445	0	0	0	96	0	115

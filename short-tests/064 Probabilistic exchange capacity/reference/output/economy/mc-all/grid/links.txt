@@ -1,0 +1,3 @@
+upstream	downstream
+area-1	area-2
+area-1	area-3

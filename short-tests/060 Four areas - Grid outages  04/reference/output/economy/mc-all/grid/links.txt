@@ -1,0 +1,11 @@
+upstream	downstream
+& trip-ew	(
+& trip-ew	)
+& trip-nw	(
+& trip-nw	)
+(	)
+east	north
+east	south
+east	west
+north	west
+south	west

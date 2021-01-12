@@ -1,0 +1,20 @@
+area-1	area	de	weekly
+	VARIABLES	BEGIN	END
+	3	1	13
+
+area-1	weekly	power_plant	power_plant	power_plant
+		MWh	NP Cost - Euro	NODU
+	week	EXP	EXP	EXP
+	1	432480	0	494
+	2	444000	0	504
+	3	435840	0	504
+	4	434400	0	504
+	5	434400	0	504
+	6	437280	0	504
+	7	425760	0	504
+	8	453600	0	504
+	9	427200	0	504
+	10	411360	0	504
+	11	398400	0	504
+	12	433920	0	504
+	13	448800	0	504

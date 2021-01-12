@@ -1,0 +1,8 @@
+PSP-OUT	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+PSP-OUT	annual	virtual	virtual	virtual
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	0	0	0

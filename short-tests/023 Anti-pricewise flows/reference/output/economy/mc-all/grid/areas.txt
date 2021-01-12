@@ -1,0 +1,5 @@
+id	name
+ne	NE
+nw	NW
+se	SE
+sw	SW

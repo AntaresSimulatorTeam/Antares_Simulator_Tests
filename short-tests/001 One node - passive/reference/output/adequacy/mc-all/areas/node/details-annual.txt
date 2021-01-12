@@ -1,0 +1,8 @@
+NODE	area	de	annual
+	VARIABLES	BEGIN	END
+	1	1	1
+
+NODE	annual	default
+		MWh
+		EXP
+	Annual	0
