@@ -1,0 +1,8 @@
+RS	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+RS	annual	gas_ccgt new	lignite_new	lignite_old 2	gas_ccgt new	lignite_new	lignite_old 2	gas_ccgt new	lignite_new	lignite_old 2
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+										
+	Annual	4485385	16738795	10500952	292121	3760259	1240538	46296	37704	40872

@@ -1,0 +1,8 @@
+BG	area	de	annual
+	VARIABLES	BEGIN	END
+	18	1	1
+
+BG	annual	gas_ccgt new	gas_ocgt new	gas_ocgt old	hard coal_old 1	lignite_old 1	nuclear_nuclear	gas_ccgt new	gas_ocgt new	gas_ocgt old	hard coal_old 1	lignite_old 1	nuclear_nuclear	gas_ccgt new	gas_ocgt new	gas_ocgt old	hard coal_old 1	lignite_old 1	nuclear_nuclear
+		MWh	MWh	MWh	MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	NODU	NODU	NODU
+																			
+	Annual	1931228	2132772	49476	1210625	13170981	15069714	446317	1301973	212871	525844	2434852	1213520	15138	14466	4313	14648	61560	13704

@@ -1,0 +1,8 @@
+GR	area	de	annual
+	VARIABLES	BEGIN	END
+	21	1	1
+
+GR	annual	CCGT-old-2	CCGT_new	Lignite-new	Lignite-old-1	Lignite-old-2	OCGT-old	OCGT_new	CCGT-old-2	CCGT_new	Lignite-new	Lignite-old-1	Lignite-old-2	OCGT-old	OCGT_new	CCGT-old-2	CCGT_new	Lignite-new	Lignite-old-1	Lignite-old-2	OCGT-old	OCGT_new
+		MWh	MWh	MWh	MWh	MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	NODU	NODU	NODU	NODU
+																						
+	Annual	3136755	27970482	4219493	11898350	4671915	236929	1037183	0	0	0	0	0	0	0	7529	73829	6816	43990	14856	4896	26636

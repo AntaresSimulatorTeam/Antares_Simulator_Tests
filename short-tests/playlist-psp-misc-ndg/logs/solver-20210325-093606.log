@@ -1,0 +1,969 @@
+[Thu Mar 25 09:36:06 2021][solver][check] Antares Solver v8.0.1 (RTE France)
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: hostname = WD0572
+[Thu Mar 25 09:36:06 2021][solver][infos] 
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: from F:\Projet_SRO\rte-antares\features\_buildDebug\solver\Debug
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: log filename: F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\logs\solver-20210325-093606.log
+[Thu Mar 25 09:36:06 2021][solver][infos] 
+[Thu Mar 25 09:36:06 2021][solver][notic] Preparing playlist-psp-misc-ndg...
+[Thu Mar 25 09:36:06 2021][solver][infos]   detected version: 800
+[Thu Mar 25 09:36:06 2021][solver][infos]   from `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg`
+[Thu Mar 25 09:36:06 2021][solver][infos] 
+[Thu Mar 25 09:36:06 2021][solver][infos]   simulation mode: Economy
+[Thu Mar 25 09:36:06 2021][solver][infos]   simplex optimization range: week
+[Thu Mar 25 09:36:06 2021][solver][infos]   3 years in the user's playlist
+[Thu Mar 25 09:36:06 2021][solver][infos]   2 years with weight !=1 in the user's playlist
+[Thu Mar 25 09:36:06 2021][solver][infos]   maximum weight 3.000000 for year(s) 2
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: enabling the 'year-by-year' mode
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: enabling the user playlist
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: enabling the custom build mode
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: ignoring export mps
+[Thu Mar 25 09:36:06 2021][solver][infos]   :: ignoring export structure
+[Thu Mar 25 09:36:06 2021][solver][infos]   Output folder : F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\about-the-study\study.ini`
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading the list of areas...
+[Thu Mar 25 09:36:06 2021][solver][infos]   Loading the area list from `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\areas\list.txt`
+[Thu Mar 25 09:36:06 2021][solver][infos]   5 areas found
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading global hydro data...
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\maxpower_al.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\creditmodulations_al.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\reservoir_al.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\inflowPattern_al.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\maxpower_bg.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\creditmodulations_bg.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\reservoir_bg.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\inflowPattern_bg.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\maxpower_gr.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\creditmodulations_gr.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\reservoir_gr.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\inflowPattern_gr.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\maxpower_mk.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\creditmodulations_mk.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\reservoir_mk.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\inflowPattern_mk.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\maxpower_rs.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\creditmodulations_rs.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\reservoir_rs.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\common\capacity\inflowPattern_rs.txt'
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading thermal clusters...
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading thermal configuration for the area AL
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\al\..\..\prepro\al\gas_ccgt new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\al\..\..\prepro\al\gas_ccgt old 2\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading thermal configuration for the area BG
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\gas_ccgt new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\gas_ocgt new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\gas_ocgt old\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\hard coal_old 1\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\lignite_old 1\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\bg\..\..\prepro\bg\nuclear_nuclear\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading thermal configuration for the area GR
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\ccgt-old-2\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\ccgt_new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\lignite-new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\lignite-old-1\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\lignite-old-2\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\ocgt-old\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\gr\..\..\prepro\gr\ocgt_new\modulation.txt'
+[Thu Mar 25 09:36:06 2021][solver][infos] Loading thermal configuration for the area MK
+[Thu Mar 25 09:36:06 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\mk\..\..\prepro\mk\gas_ccgt old 1\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\mk\..\..\prepro\mk\gas_conventional old 1\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\mk\..\..\prepro\mk\hard coal_new\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\mk\..\..\prepro\mk\lignite_new\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\mk\..\..\prepro\mk\lignite_old 1\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading thermal configuration for the area RS
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\rs\..\..\prepro\rs\gas_ccgt new\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\rs\..\..\prepro\rs\lignite_new\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\clusters\rs\..\..\prepro\rs\lignite_old 2\modulation.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL
+[Thu Mar 25 09:36:07 2021][solver][debug] Checking : Misc Gen: `al`
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  12%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\al\gr.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\al\mk.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\al\rs.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  25%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\load\series\load_al.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  37%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\solar\series\solar_al.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  50%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\al\ror.txt'
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\al\mod.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  62%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\wind\series\wind_al.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  75%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\al\gas_ccgt new\series.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 1/5: AL  87%
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\al\gas_ccgt old 2\series.txt'
+[Thu Mar 25 09:36:07 2021][solver][infos] Loading the area 2/5: BG
+[Thu Mar 25 09:36:07 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\misc-gen\miscgen-bg.txt'
+[Thu Mar 25 09:36:08 2021][solver][debug] Checking : Misc Gen: `bg`
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  8%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\bg\gr.txt'
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\bg\mk.txt'
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\bg\rs.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  16%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\load\series\load_bg.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  25%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\solar\series\solar_bg.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  33%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\bg\ror.txt'
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\bg\mod.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  41%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\wind\series\wind_bg.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  50%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\gas_ccgt new\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  58%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\gas_ocgt new\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  66%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\gas_ocgt old\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  75%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\hard coal_old 1\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  83%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\lignite_old 1\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 2/5: BG  91%
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\bg\nuclear_nuclear\series.txt'
+[Thu Mar 25 09:36:08 2021][solver][infos] Loading the area 3/5: GR
+[Thu Mar 25 09:36:08 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\misc-gen\miscgen-gr.txt'
+[Thu Mar 25 09:36:09 2021][solver][debug] Checking : Misc Gen: `gr`
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  7%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\gr\mk.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  15%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\load\series\load_gr.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  23%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\solar\series\solar_gr.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  30%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\gr\ror.txt'
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\gr\mod.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  38%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\wind\series\wind_gr.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  46%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\ccgt-old-2\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  53%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\ccgt_new\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  61%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\lignite-new\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  69%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\lignite-old-1\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  76%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\lignite-old-2\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  84%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\ocgt-old\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 3/5: GR  92%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\gr\ocgt_new\series.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 4/5: MK
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\misc-gen\miscgen-mk.txt'
+[Thu Mar 25 09:36:09 2021][solver][debug] Checking : Misc Gen: `mk`
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 4/5: MK  9%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\links\mk\rs.txt'
+[Thu Mar 25 09:36:09 2021][solver][infos] Loading the area 4/5: MK  18%
+[Thu Mar 25 09:36:09 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\load\series\load_mk.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  27%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\solar\series\solar_mk.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  36%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\mk\ror.txt'
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\mk\mod.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  45%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\wind\series\wind_mk.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  54%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\mk\gas_ccgt old 1\series.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  63%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\mk\gas_conventional old 1\series.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  72%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\mk\hard coal_new\series.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  81%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\mk\lignite_new\series.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 4/5: MK  90%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\mk\lignite_old 1\series.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\misc-gen\miscgen-rs.txt'
+[Thu Mar 25 09:36:10 2021][solver][debug] Checking : Misc Gen: `rs`
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS  11%
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS  22%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\load\series\load_rs.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS  33%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\solar\series\solar_rs.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS  44%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\rs\ror.txt'
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\hydro\series\rs\mod.txt'
+[Thu Mar 25 09:36:10 2021][solver][infos] Loading the area 5/5: RS  55%
+[Thu Mar 25 09:36:10 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\wind\series\wind_rs.txt'
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading the area 5/5: RS  66%
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\rs\gas_ccgt new\series.txt'
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading the area 5/5: RS  77%
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\rs\lignite_new\series.txt'
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading the area 5/5: RS  88%
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: loading `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\input\thermal\series\rs\lignite_old 2\series.txt'
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading correlation matrices...
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading constraints...
+[Thu Mar 25 09:36:11 2021][solver][infos] No binding constraint found
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Loading sets of areas...
+[Thu Mar 25 09:36:11 2021][solver][debug]   > set :: All areas: applying 1 rules, got 5 items
+[Thu Mar 25 09:36:11 2021][solver][infos]    found `all areas` (5 items, no output)
+[Thu Mar 25 09:36:11 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Mar 25 09:36:11 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Mar 25 09:36:11 2021][solver][infos]  Elapsed time: Study loading: 4935ms
+[Thu Mar 25 09:36:11 2021][solver][infos] [statistics] disk: read: 29344 ko, written: 0 ko
+[Thu Mar 25 09:36:11 2021][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Thu Mar 25 09:36:11 2021][solver][infos] The study is loaded.
+[Thu Mar 25 09:36:11 2021][solver][infos] [UI] Display messages: Off
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Generating calendar informations
+[Thu Mar 25 09:36:11 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: generating calendar dedicated to the output
+[Thu Mar 25 09:36:11 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Mar 25 09:36:11 2021][solver][infos]     Partial week detected. Not allowed in Economy
+[Thu Mar 25 09:36:11 2021][solver][infos]     Time interval that has been requested: 1..8760
+[Thu Mar 25 09:36:11 2021][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..3
+[Thu Mar 25 09:36:11 2021][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Thu Mar 25 09:36:11 2021][solver][infos] No disabled thermal cluster removed before solver computations
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Thu Mar 25 09:36:11 2021][solver][infos] No thermal cluster in 'must-run' mode
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos]   No binding constraint to consider
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] Summary
+[Thu Mar 25 09:36:11 2021][solver][infos]      areas: 5
+[Thu Mar 25 09:36:11 2021][solver][infos]      links: 8
+[Thu Mar 25 09:36:11 2021][solver][infos]      thermal clusters: 23
+[Thu Mar 25 09:36:11 2021][solver][infos]      thermal clusters (must-run): 0
+[Thu Mar 25 09:36:11 2021][solver][infos]      binding constraints: 0
+[Thu Mar 25 09:36:11 2021][solver][infos]      geographic trimming:false
+[Thu Mar 25 09:36:11 2021][solver][infos]      memory : 65Mo
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][debug] 
+[Thu Mar 25 09:36:11 2021][solver][debug] applying transformations required by the simulation...
+[Thu Mar 25 09:36:11 2021][solver][debug]   > adding DSM values
+[Thu Mar 25 09:36:11 2021][solver][infos] Initializing random number generators...
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Wind time-series generation, seed: 5489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Load time-series generation, seed: 1005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Hydro time-series generation, seed: 2005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Thermal time-series generation, seed: 3005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Solar time-series generation, seed: 4005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Time-series draws (MC scenario builder), seed: 5005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Noise on Unsupplied energy costs, seed: 6005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Noise on Spilled energy costs, seed: 7005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Noise on Thermal plants costs, seed: 8005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Noise on virtual Hydro costs, seed: 9005489
+[Thu Mar 25 09:36:11 2021][solver][debug]   random number generator: Initial reservoir levels, seed: 10005489
+[Thu Mar 25 09:36:11 2021][solver][debug] tsGenThermal = false
+[Thu Mar 25 09:36:11 2021][solver][infos] [UI] Progression map: F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\about-the-study\map
+[Thu Mar 25 09:36:11 2021][solver][infos]   system memory report: 5557 Mib / 16213 Mib,  34.274965% free
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][infos] [UI] Display messages: On
+[Thu Mar 25 09:36:11 2021][solver][check] Running the simulation (economy)
+[Thu Mar 25 09:36:11 2021][solver][infos] Allocating resources...
+[Thu Mar 25 09:36:11 2021][solver][infos] Allocating resources...
+[Thu Mar 25 09:36:11 2021][solver][infos]  Variables:  (84Mo)
+[Thu Mar 25 09:36:11 2021][solver][infos]  + Areas                             
+[Thu Mar 25 09:36:11 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Mar 25 09:36:11 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Mar 25 09:36:11 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Mar 25 09:36:11 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Mar 25 09:36:11 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Mar 25 09:36:11 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Mar 25 09:36:11 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[Thu Mar 25 09:36:11 2021][solver][infos]      + Links                         
+[Thu Mar 25 09:36:11 2021][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Thu Mar 25 09:36:11 2021][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Thu Mar 25 09:36:11 2021][solver][infos]            LOOP FLOW         MWh     Loop flow
+[Thu Mar 25 09:36:11 2021][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Thu Mar 25 09:36:11 2021][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Thu Mar 25 09:36:11 2021][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Thu Mar 25 09:36:11 2021][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Thu Mar 25 09:36:11 2021][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Thu Mar 25 09:36:11 2021][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]  + Sets of Areas                     
+[Thu Mar 25 09:36:11 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Mar 25 09:36:11 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Mar 25 09:36:11 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Mar 25 09:36:11 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Mar 25 09:36:11 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Mar 25 09:36:11 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Mar 25 09:36:11 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Mar 25 09:36:11 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Mar 25 09:36:11 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Mar 25 09:36:11 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][debug]   resizing timeseries numbers
+[Thu Mar 25 09:36:11 2021][solver][infos] Preparing time-series numbers...
+[Thu Mar 25 09:36:11 2021][solver][infos] Preparing time-series numbers... (default ruleset)
+[Thu Mar 25 09:36:11 2021][solver][infos]   :: Scenario Builder, active target: default ruleset
+[Thu Mar 25 09:36:11 2021][solver][infos]   > loading scenario builder data from F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\settings\scenariobuilder.dat
+[Thu Mar 25 09:36:11 2021][solver][infos] 
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\load\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\solar\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\hydro\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\al.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\bg.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\gr.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\mk.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\wind\rs.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\al\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\al\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\al\gas_ccgt old 2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\al\gas_ccgt old 2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ocgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ocgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ocgt old.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\gas_ocgt old.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\hard coal_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\hard coal_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\lignite_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\lignite_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\nuclear_nuclear.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\bg\nuclear_nuclear.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ccgt-old-2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ccgt-old-2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ccgt_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ccgt_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-old-1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-old-1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-old-2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\lignite-old-2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ocgt-old.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ocgt-old.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ocgt_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\gr\ocgt_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\gas_ccgt old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\gas_ccgt old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\gas_conventional old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\gas_conventional old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\hard coal_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\hard coal_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\lignite_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\lignite_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\lignite_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\mk\lignite_old 1.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\gas_ccgt new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\lignite_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\lignite_new.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\lignite_old 2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][debug]   :: [end] writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\ts-numbers\thermal\rs\lignite_old 2.txt' (1x3)
+[Thu Mar 25 09:36:11 2021][solver][infos] MC-Years : [1 .. 3], total: 3
+[Thu Mar 25 09:36:11 2021][solver][infos]  Starting the simulation
+[Thu Mar 25 09:36:11 2021][solver][infos] parallel batch size : 1
+[Thu Mar 25 09:36:12 2021][solver][infos] Year 1
+[Thu Mar 25 09:36:12 2021][solver][infos] 
+[Thu Mar 25 09:36:12 2021][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Thu Mar 25 09:36:12 2021][solver][infos]  ( Problem Size :10416 Variables 3029 Constraints) 
+[Thu Mar 25 09:36:12 2021][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 69659
+[Thu Mar 25 09:36:12 2021][solver][infos] 
+[Thu Mar 25 09:36:12 2021][solver][infos] 
+[Thu Mar 25 09:36:12 2021][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Thu Mar 25 09:36:12 2021][solver][infos] 
+[Thu Mar 25 09:36:12 2021][solver][progress] task 0 mc, year: 0, 15.384615
+[Thu Mar 25 09:36:13 2021][solver][progress] task 0 mc, year: 0, 69.230766
+[Thu Mar 25 09:36:14 2021][solver][infos] Exporting the annual results
+[Thu Mar 25 09:36:14 2021][solver][debug]   (for 122 columns)
+[Thu Mar 25 09:36:14 2021][solver][debug]   :: initializing survey results (max: 122 variables)
+[Thu Mar 25 09:36:14 2021][solver][debug]   :: results: output : `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001`
+[Thu Mar 25 09:36:14 2021][solver][infos] Exporting results : AL
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/values-hourly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/values-daily.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/values-weekly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/values-monthly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/values-annual.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/details-hourly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/details-daily.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/details-weekly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/details-monthly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\al/details-annual.txt`
+[Thu Mar 25 09:36:14 2021][solver][infos] Exporting results : BG
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/values-hourly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/values-daily.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/values-weekly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/values-monthly.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/values-annual.txt`
+[Thu Mar 25 09:36:14 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/details-hourly.txt`
+[Thu Mar 25 09:36:14 2021][solver][progress] task 0 mc, year: 0, 100.000000
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/details-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/details-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/details-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\bg/details-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][infos] Exporting results : GR
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/values-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/values-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/values-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/values-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/values-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/details-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/details-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/details-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/details-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\gr/details-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][infos] Exporting results : MK
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/values-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/values-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/values-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/values-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/values-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/details-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/details-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/details-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/details-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\mk/details-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][infos] Exporting results : RS
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/values-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/values-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/values-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/values-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/values-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/details-hourly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/details-daily.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/details-weekly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/details-monthly.txt`
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\areas\rs/details-annual.txt`
+[Thu Mar 25 09:36:15 2021][solver][infos] Exporting results : AL - GR
+[Thu Mar 25 09:36:15 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - gr/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - gr/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - gr/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - gr/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - gr/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : AL - MK
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - mk/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - mk/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - mk/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - mk/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - mk/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : AL - RS
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - rs/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - rs/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - rs/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - rs/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\al - rs/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : BG - GR
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - gr/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - gr/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - gr/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - gr/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - gr/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : BG - MK
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - mk/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - mk/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - mk/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - mk/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - mk/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : BG - RS
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - rs/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - rs/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - rs/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - rs/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\bg - rs/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : GR - MK
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\gr - mk/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\gr - mk/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\gr - mk/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\gr - mk/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\gr - mk/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos] Exporting results : MK - RS
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\mk - rs/values-hourly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\mk - rs/values-daily.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\mk - rs/values-weekly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\mk - rs/values-monthly.txt`
+[Thu Mar 25 09:36:16 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00001\links\mk - rs/values-annual.txt`
+[Thu Mar 25 09:36:16 2021][solver][infos]  Elapsed time: Survey report: 1983ms
+[Thu Mar 25 09:36:16 2021][solver][infos] parallel batch size : 1
+[Thu Mar 25 09:36:16 2021][solver][infos] Year 2
+[Thu Mar 25 09:36:17 2021][solver][progress] task 0 mc, year: 1, 28.846153
+[Thu Mar 25 09:36:18 2021][solver][progress] task 0 mc, year: 1, 80.769234
+[Thu Mar 25 09:36:19 2021][solver][infos] Exporting the annual results
+[Thu Mar 25 09:36:19 2021][solver][debug]   (for 122 columns)
+[Thu Mar 25 09:36:19 2021][solver][debug]   :: initializing survey results (max: 122 variables)
+[Thu Mar 25 09:36:19 2021][solver][debug]   :: results: output : `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002`
+[Thu Mar 25 09:36:19 2021][solver][infos] Exporting results : AL
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/values-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/values-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/values-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/values-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/values-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/details-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/details-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/details-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/details-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\al/details-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][infos] Exporting results : BG
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/values-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/values-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/values-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/values-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/values-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/details-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/details-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/details-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/details-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\bg/details-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][infos] Exporting results : GR
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/values-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][progress] task 0 mc, year: 1, 100.000000
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/values-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/values-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/values-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/values-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/details-hourly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/details-daily.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/details-weekly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/details-monthly.txt`
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\gr/details-annual.txt`
+[Thu Mar 25 09:36:19 2021][solver][infos] Exporting results : MK
+[Thu Mar 25 09:36:19 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/details-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/details-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/details-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/details-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\mk/details-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : RS
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/details-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/details-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/details-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/details-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\areas\rs/details-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : AL - GR
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - gr/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - gr/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - gr/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - gr/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - gr/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : AL - MK
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - mk/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - mk/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - mk/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - mk/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - mk/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : AL - RS
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - rs/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - rs/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - rs/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - rs/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\al - rs/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : BG - GR
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - gr/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - gr/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - gr/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - gr/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - gr/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : BG - MK
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - mk/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - mk/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - mk/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - mk/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - mk/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : BG - RS
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - rs/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - rs/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - rs/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - rs/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\bg - rs/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : GR - MK
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\gr - mk/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\gr - mk/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\gr - mk/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\gr - mk/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\gr - mk/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos] Exporting results : MK - RS
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\mk - rs/values-hourly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\mk - rs/values-daily.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\mk - rs/values-weekly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\mk - rs/values-monthly.txt`
+[Thu Mar 25 09:36:20 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00002\links\mk - rs/values-annual.txt`
+[Thu Mar 25 09:36:20 2021][solver][infos]  Elapsed time: Survey report: 1983ms
+[Thu Mar 25 09:36:21 2021][solver][infos] parallel batch size : 1
+[Thu Mar 25 09:36:21 2021][solver][infos] Year 3
+[Thu Mar 25 09:36:22 2021][solver][progress] task 0 mc, year: 2, 40.384617
+[Thu Mar 25 09:36:23 2021][solver][progress] task 0 mc, year: 2, 88.461540
+[Thu Mar 25 09:36:23 2021][solver][infos] Exporting the annual results
+[Thu Mar 25 09:36:23 2021][solver][debug]   (for 122 columns)
+[Thu Mar 25 09:36:23 2021][solver][debug]   :: initializing survey results (max: 122 variables)
+[Thu Mar 25 09:36:23 2021][solver][debug]   :: results: output : `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003`
+[Thu Mar 25 09:36:23 2021][solver][infos] Exporting results : AL
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/values-hourly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/values-daily.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/values-weekly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/values-monthly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/values-annual.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/details-hourly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/details-daily.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/details-weekly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/details-monthly.txt`
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\al/details-annual.txt`
+[Thu Mar 25 09:36:23 2021][solver][infos] Exporting results : BG
+[Thu Mar 25 09:36:23 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/values-hourly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/values-daily.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/values-weekly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/values-monthly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/values-annual.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/details-hourly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/details-daily.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/details-weekly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/details-monthly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\bg/details-annual.txt`
+[Thu Mar 25 09:36:24 2021][solver][infos] Exporting results : GR
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/values-hourly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/values-daily.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/values-weekly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/values-monthly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/values-annual.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/details-hourly.txt`
+[Thu Mar 25 09:36:24 2021][solver][progress] task 0 mc, year: 2, 100.000000
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/details-daily.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/details-weekly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/details-monthly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\gr/details-annual.txt`
+[Thu Mar 25 09:36:24 2021][solver][infos] Exporting results : MK
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/values-hourly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/values-daily.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/values-weekly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/values-monthly.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/values-annual.txt`
+[Thu Mar 25 09:36:24 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/details-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/details-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/details-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/details-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\mk/details-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : RS
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/details-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/details-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/details-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/details-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\areas\rs/details-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : AL - GR
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - gr/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - gr/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - gr/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - gr/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - gr/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : AL - MK
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - mk/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - mk/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - mk/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - mk/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - mk/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : AL - RS
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - rs/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - rs/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - rs/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - rs/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\al - rs/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : BG - GR
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - gr/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - gr/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - gr/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - gr/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - gr/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : BG - MK
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - mk/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - mk/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - mk/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - mk/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - mk/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : BG - RS
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - rs/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - rs/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - rs/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - rs/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\bg - rs/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : GR - MK
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\gr - mk/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\gr - mk/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\gr - mk/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\gr - mk/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\gr - mk/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : MK - RS
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\mk - rs/values-hourly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\mk - rs/values-daily.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\mk - rs/values-weekly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\mk - rs/values-monthly.txt`
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-ind\00003\links\mk - rs/values-annual.txt`
+[Thu Mar 25 09:36:25 2021][solver][infos]  Elapsed time: Survey report: 2163ms
+[Thu Mar 25 09:36:25 2021][solver][infos]   The quadratic optimisation has been skipped
+[Thu Mar 25 09:36:25 2021][solver][infos]  Elapsed time: MC Years: 13917ms
+[Thu Mar 25 09:36:25 2021][solver][infos] 
+[Thu Mar 25 09:36:25 2021][solver][check] Exporting the survey results...
+[Thu Mar 25 09:36:25 2021][solver][debug]   (for 122 columns)
+[Thu Mar 25 09:36:25 2021][solver][debug]   :: initializing survey results (max: 122 variables)
+[Thu Mar 25 09:36:25 2021][solver][debug]   :: results: output : `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all`
+[Thu Mar 25 09:36:25 2021][solver][infos] Exporting results : AL
+[Thu Mar 25 09:36:25 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/values-hourly.txt`
+[Thu Mar 25 09:36:26 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/values-daily.txt`
+[Thu Mar 25 09:36:26 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/values-weekly.txt`
+[Thu Mar 25 09:36:26 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/values-monthly.txt`
+[Thu Mar 25 09:36:26 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/values-annual.txt`
+[Thu Mar 25 09:36:26 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/id-hourly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/id-daily.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/id-weekly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/id-monthly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/id-annual.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/details-hourly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/details-daily.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/details-weekly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/details-monthly.txt`
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\al/details-annual.txt`
+[Thu Mar 25 09:36:27 2021][solver][infos] Exporting results : BG
+[Thu Mar 25 09:36:27 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/values-hourly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/values-daily.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/values-weekly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/values-monthly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/values-annual.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/id-hourly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/id-daily.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/id-weekly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/id-monthly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/id-annual.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/details-hourly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/details-daily.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/details-weekly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/details-monthly.txt`
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\bg/details-annual.txt`
+[Thu Mar 25 09:36:28 2021][solver][infos] Exporting results : GR
+[Thu Mar 25 09:36:28 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/values-hourly.txt`
+[Thu Mar 25 09:36:29 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/values-daily.txt`
+[Thu Mar 25 09:36:29 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/values-weekly.txt`
+[Thu Mar 25 09:36:29 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/values-monthly.txt`
+[Thu Mar 25 09:36:29 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/values-annual.txt`
+[Thu Mar 25 09:36:29 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/id-hourly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/id-daily.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/id-weekly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/id-monthly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/id-annual.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/details-hourly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/details-daily.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/details-weekly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/details-monthly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\gr/details-annual.txt`
+[Thu Mar 25 09:36:30 2021][solver][infos] Exporting results : MK
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/values-hourly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/values-daily.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/values-weekly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/values-monthly.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/values-annual.txt`
+[Thu Mar 25 09:36:30 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/id-hourly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/id-daily.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/id-weekly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/id-monthly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/id-annual.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/details-hourly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/details-daily.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/details-weekly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/details-monthly.txt`
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\mk/details-annual.txt`
+[Thu Mar 25 09:36:31 2021][solver][infos] Exporting results : RS
+[Thu Mar 25 09:36:31 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/values-hourly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/values-daily.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/values-weekly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/values-monthly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/values-annual.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/id-hourly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/id-daily.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/id-weekly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/id-monthly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/id-annual.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/details-hourly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/details-daily.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/details-weekly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/details-monthly.txt`
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\areas\rs/details-annual.txt`
+[Thu Mar 25 09:36:32 2021][solver][infos] Exporting results : AL - GR
+[Thu Mar 25 09:36:32 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/values-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/values-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/values-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/values-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/values-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/id-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/id-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/id-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/id-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - gr/id-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][infos] Exporting results : AL - MK
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/values-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/values-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/values-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/values-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/values-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/id-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/id-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/id-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/id-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - mk/id-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][infos] Exporting results : AL - RS
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/values-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/values-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/values-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/values-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/values-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/id-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/id-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/id-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/id-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\al - rs/id-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][infos] Exporting results : BG - GR
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/values-hourly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/values-daily.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/values-weekly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/values-monthly.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/values-annual.txt`
+[Thu Mar 25 09:36:33 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/id-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/id-daily.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/id-weekly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/id-monthly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - gr/id-annual.txt`
+[Thu Mar 25 09:36:34 2021][solver][infos] Exporting results : BG - MK
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/values-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/values-daily.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/values-weekly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/values-monthly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/values-annual.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/id-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/id-daily.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/id-weekly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/id-monthly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - mk/id-annual.txt`
+[Thu Mar 25 09:36:34 2021][solver][infos] Exporting results : BG - RS
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/values-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/values-daily.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/values-weekly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/values-monthly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/values-annual.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/id-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/id-daily.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/id-weekly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/id-monthly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\bg - rs/id-annual.txt`
+[Thu Mar 25 09:36:34 2021][solver][infos] Exporting results : GR - MK
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/values-hourly.txt`
+[Thu Mar 25 09:36:34 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/values-daily.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/values-weekly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/values-monthly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/values-annual.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/id-hourly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/id-daily.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/id-weekly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/id-monthly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\gr - mk/id-annual.txt`
+[Thu Mar 25 09:36:35 2021][solver][infos] Exporting results : MK - RS
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/values-hourly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/values-daily.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/values-weekly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/values-monthly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/values-annual.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/id-hourly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/id-daily.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/id-weekly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/id-monthly.txt`
+[Thu Mar 25 09:36:35 2021][solver][debug]  :: survey writing `F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\economy\mc-all\links\mk - rs/id-annual.txt`
+[Thu Mar 25 09:36:35 2021][solver][infos] Exporting digest...
+[Thu Mar 25 09:36:35 2021][solver][debug]  . Digest, truncating file
+[Thu Mar 25 09:36:35 2021][solver][debug]  . Digest, annual
+[Thu Mar 25 09:36:35 2021][solver][debug]  . Digest, flow linear
+[Thu Mar 25 09:36:35 2021][solver][debug]  . Digest, flow quad
+[Thu Mar 25 09:36:35 2021][solver][infos]  Elapsed time: Survey report: 9626ms
+[Thu Mar 25 09:36:35 2021][solver][infos] [UI] Quitting the solver gracefully
+[Thu Mar 25 09:36:35 2021][solver][infos]  Writing log file: F:\Projet_SRO\rte-antares\Antares_Simulator_Tests\short-tests\playlist-psp-misc-ndg\output\20210325-0936eco\simulation.log
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: clear study
+[Thu Mar 25 09:36:35 2021][solver][debug] Releasing runtime data
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying area AL
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying area BG
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying area GR
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying area MK
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying area RS
+[Thu Mar 25 09:36:35 2021][solver][infos] Done.
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: destroying study 0x00000244CCD3C070
+[Thu Mar 25 09:36:35 2021][solver][debug]   :: clear study
