@@ -1,0 +1,9 @@
+upstream	downstream
+al	gr
+al	mk
+al	rs
+bg	gr
+bg	mk
+bg	rs
+gr	mk
+mk	rs

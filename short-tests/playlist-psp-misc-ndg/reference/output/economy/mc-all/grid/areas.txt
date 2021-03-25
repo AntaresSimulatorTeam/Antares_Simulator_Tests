@@ -1,0 +1,6 @@
+id	name
+al	AL
+bg	BG
+gr	GR
+mk	MK
+rs	RS

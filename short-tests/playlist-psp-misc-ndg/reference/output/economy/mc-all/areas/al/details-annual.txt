@@ -1,0 +1,8 @@
+AL	area	de	annual
+	VARIABLES	BEGIN	END
+	6	1	1
+
+AL	annual	gas_ccgt new	gas_ccgt old 2	gas_ccgt new	gas_ccgt old 2	gas_ccgt new	gas_ccgt old 2
+		MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	4589464	739625	244080	249880	46068	7484

@@ -1,0 +1,8 @@
+MK	area	de	annual
+	VARIABLES	BEGIN	END
+	15	1	1
+
+MK	annual	gas_ccgt old 1	gas_conventional old 1	hard coal_new	lignite_new	lignite_old 1	gas_ccgt old 1	gas_conventional old 1	hard coal_new	lignite_new	lignite_old 1	gas_ccgt old 1	gas_conventional old 1	hard coal_new	lignite_new	lignite_old 1
+		MWh	MWh	MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	NODU	NODU
+																
+	Annual	1046099	285723	918720	2304000	4541160	7864797	1392417	459401	1066876	1537801	5038	10972	7656	7680	22152
