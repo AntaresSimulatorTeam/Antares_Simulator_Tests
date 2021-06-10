@@ -1,0 +1,179 @@
+[Thu Jun 10 15:06:33 2021][solver][check] Antares Solver v8.0.2 (RTE France)
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: built for 64-bit architectures, GNU/Linux, 12 cpu(s)
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: hostname = <unknown>
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: from /home/omnesflo/Antares_Simulator/build/solver
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: log filename: /home/omnesflo/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/logs/solver-20210610-150633.log
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][notic] Preparing Simple renewable...
+[Thu Jun 10 15:06:33 2021][solver][infos]   detected version: 800
+[Thu Jun 10 15:06:33 2021][solver][infos]   from `/home/omnesflo/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1`
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos]   simulation mode: Economy
+[Thu Jun 10 15:06:33 2021][solver][infos]   simplex optimization range: week
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: enabling the 'year-by-year' mode
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: ignoring export mps
+[Thu Jun 10 15:06:33 2021][solver][infos]   :: ignoring export structure
+[Thu Jun 10 15:06:33 2021][solver][infos]   Output folder : /home/omnesflo/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20210610-1506eco
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the list of areas...
+[Thu Jun 10 15:06:33 2021][solver][infos]   Loading the area list from `/home/omnesflo/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/areas/list.txt`
+[Thu Jun 10 15:06:33 2021][solver][infos]   1 area found
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading global hydro data...
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading thermal clusters...
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading thermal configuration for the area Area
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading renewable clusters...
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading renewable configuration for the area Area
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area  16%
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area  33%
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area  50%
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area  66%
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading the area 1/1: Area  83%
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading correlation matrices...
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading constraints...
+[Thu Jun 10 15:06:33 2021][solver][infos] No binding constraint found
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Loading sets of areas...
+[Thu Jun 10 15:06:33 2021][solver][infos]    found `all areas` (1 item, no output)
+[Thu Jun 10 15:06:33 2021][solver][infos]  Elapsed time: Study loading: 20ms
+[Thu Jun 10 15:06:33 2021][solver][infos] [statistics] disk: read: 96 ko, written: 0 ko
+[Thu Jun 10 15:06:33 2021][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Thu Jun 10 15:06:33 2021][solver][infos] The study is loaded.
+[Thu Jun 10 15:06:33 2021][solver][infos] [UI] Display messages: Off
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Generating calendar informations
+[Thu Jun 10 15:06:33 2021][solver][infos]     Partial week detected. Not allowed in Economy
+[Thu Jun 10 15:06:33 2021][solver][infos]     Time interval that has been requested: 1..8760
+[Thu Jun 10 15:06:33 2021][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..1
+[Thu Jun 10 15:06:33 2021][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Thu Jun 10 15:06:33 2021][solver][infos] No disabled thermal cluster removed before solver computations
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Removing disabled renewable clusters in from solver computations...
+[Thu Jun 10 15:06:33 2021][solver][infos] No disabled renewable cluster removed before solver computations
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Thu Jun 10 15:06:33 2021][solver][infos] No thermal cluster in 'must-run' mode
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos]   No binding constraint to consider
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Summary
+[Thu Jun 10 15:06:33 2021][solver][infos]      areas: 1
+[Thu Jun 10 15:06:33 2021][solver][infos]      links: 0
+[Thu Jun 10 15:06:33 2021][solver][infos]      thermal clusters: 0
+[Thu Jun 10 15:06:33 2021][solver][infos]      thermal clusters (must-run): 0
+[Thu Jun 10 15:06:33 2021][solver][infos]      binding constraints: 0
+[Thu Jun 10 15:06:33 2021][solver][infos]      geographic trimming:false
+[Thu Jun 10 15:06:33 2021][solver][infos]      memory : 1Mo
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Initializing random number generators...
+[Thu Jun 10 15:06:33 2021][solver][infos]   The progression is disabled
+[Thu Jun 10 15:06:33 2021][solver][infos]   system memory report: 27275 Mib / 31717 Mib,  85.994892% free
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] [UI] Display messages: On
+[Thu Jun 10 15:06:33 2021][solver][check] Running the simulation (economy)
+[Thu Jun 10 15:06:33 2021][solver][infos] Allocating resources...
+[Thu Jun 10 15:06:33 2021][solver][infos] Allocating resources...
+[Thu Jun 10 15:06:33 2021][solver][infos]  Variables:  (14Mo)
+[Thu Jun 10 15:06:33 2021][solver][infos]  + Areas                             
+[Thu Jun 10 15:06:33 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Jun 10 15:06:33 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Jun 10 15:06:33 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Jun 10 15:06:33 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Jun 10 15:06:33 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Jun 10 15:06:33 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Jun 10 15:06:33 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[Thu Jun 10 15:06:33 2021][solver][infos]      + Links                         
+[Thu Jun 10 15:06:33 2021][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Thu Jun 10 15:06:33 2021][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Thu Jun 10 15:06:33 2021][solver][infos]            LOOP FLOW         MWh     Loop flow
+[Thu Jun 10 15:06:33 2021][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Thu Jun 10 15:06:33 2021][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Thu Jun 10 15:06:33 2021][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Thu Jun 10 15:06:33 2021][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Thu Jun 10 15:06:33 2021][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Thu Jun 10 15:06:33 2021][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]  + Sets of Areas                     
+[Thu Jun 10 15:06:33 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Jun 10 15:06:33 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Jun 10 15:06:33 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Jun 10 15:06:33 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Jun 10 15:06:33 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Jun 10 15:06:33 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Jun 10 15:06:33 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Jun 10 15:06:33 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Jun 10 15:06:33 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Jun 10 15:06:33 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Preparing time-series numbers...
+[Thu Jun 10 15:06:33 2021][solver][infos] Checking inter-modal correlation... (, loadsolarwindhydrothermal)
+[Thu Jun 10 15:06:33 2021][solver][infos] MC-Years : [1 .. 1], total: 1
+[Thu Jun 10 15:06:33 2021][solver][infos]  Starting the simulation
+[Thu Jun 10 15:06:33 2021][solver][infos] parallel batch size : 1
+[Thu Jun 10 15:06:33 2021][solver][infos] Year 1
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Thu Jun 10 15:06:33 2021][solver][infos]  ( Problem Size :336 Variables 336 Constraints) 
+[Thu Jun 10 15:06:33 2021][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 4134
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][infos] Exporting the annual results
+[Thu Jun 10 15:06:33 2021][solver][infos] Exporting results : Area
+[Thu Jun 10 15:06:33 2021][solver][infos]  Elapsed time: Survey report: 14ms
+[Thu Jun 10 15:06:33 2021][solver][infos]  Elapsed time: MC Years: 38ms
+[Thu Jun 10 15:06:33 2021][solver][infos] 
+[Thu Jun 10 15:06:33 2021][solver][check] Exporting the survey results...
+[Thu Jun 10 15:06:33 2021][solver][infos] Exporting results : Area
+[Thu Jun 10 15:06:34 2021][solver][infos] Exporting digest...
+[Thu Jun 10 15:06:34 2021][solver][infos]  Elapsed time: Survey report: 98ms
+[Thu Jun 10 15:06:34 2021][solver][infos] [UI] Quitting the solver gracefully
+[Thu Jun 10 15:06:34 2021][solver][infos]  Writing log file: /home/omnesflo/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20210610-1506eco/simulation.log
