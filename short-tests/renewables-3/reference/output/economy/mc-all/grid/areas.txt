@@ -1,0 +1,3 @@
+id	name
+east	East
+west	West

@@ -1,0 +1,8 @@
+West	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+West	annual	Saint Nazaire	Saint Nazaire	Saint Nazaire
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	0	0	0
