@@ -1,0 +1,8 @@
+East	area	res	annual
+	VARIABLES	BEGIN	END
+	1	1	1
+
+East	annual	east 1
+		MWh
+		EXP
+	Annual	11648000
