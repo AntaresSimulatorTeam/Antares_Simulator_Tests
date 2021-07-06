@@ -1,0 +1,232 @@
+[Thu Jul  1 11:58:22 2021][solver][check] Antares Solver v8.0.3 (RTE France)
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: hostname = GM0WINAHY
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: from D:\Users\pierregui\Desktop\antares-rel\build-dbg\solver\Debug
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: log filename: D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\logs\solver-20210701-115822.log
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][notic] Preparing renewable-2-clusters-ts-prod-factor...
+[Thu Jul  1 11:58:22 2021][solver][infos]   detected version: 800
+[Thu Jul  1 11:58:22 2021][solver][infos]   from `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor`
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos]   simulation mode: Economy
+[Thu Jul  1 11:58:22 2021][solver][infos]   simplex optimization range: week
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: enabling the 'year-by-year' mode
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: ignoring export mps
+[Thu Jul  1 11:58:22 2021][solver][infos]   :: ignoring export structure
+[Thu Jul  1 11:58:22 2021][solver][infos]   Output folder : D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\about-the-study\study.ini`
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the list of areas...
+[Thu Jul  1 11:58:22 2021][solver][infos]   Loading the area list from `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\areas\list.txt`
+[Thu Jul  1 11:58:22 2021][solver][infos]   1 area found
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading global hydro data...
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\hydro\common\capacity\maxpower_area.txt'
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\hydro\common\capacity\creditmodulations_area.txt'
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\hydro\common\capacity\reservoir_area.txt'
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\hydro\common\capacity\inflowPattern_area.txt'
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading thermal clusters...
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading thermal configuration for the area Area
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading renewable configuration for the area Area
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area
+[Thu Jul  1 11:58:22 2021][solver][debug] Checking : Misc Gen: `area`
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area  16%
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area  33%
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\load\series\load_area.txt'
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area  50%
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area  66%
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading the area 1/1: Area  83%
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\renewables\series\area\la_rochelle\series.txt'
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: loading `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\input\renewables\series\area\oleron\series.txt'
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading correlation matrices...
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading constraints...
+[Thu Jul  1 11:58:22 2021][solver][infos] No binding constraint found
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Loading sets of areas...
+[Thu Jul  1 11:58:22 2021][solver][debug]   > set :: All areas: applying 1 rules, got 1 items
+[Thu Jul  1 11:58:22 2021][solver][infos]    found `all areas` (1 item, no output)
+[Thu Jul  1 11:58:22 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Jul  1 11:58:22 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Jul  1 11:58:22 2021][solver][infos]  Elapsed time: Study loading: 119ms
+[Thu Jul  1 11:58:22 2021][solver][infos] [statistics] disk: read: 174 ko, written: 0 ko
+[Thu Jul  1 11:58:22 2021][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Thu Jul  1 11:58:22 2021][solver][infos] The study is loaded.
+[Thu Jul  1 11:58:22 2021][solver][infos] [UI] Display messages: Off
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Generating calendar informations
+[Thu Jul  1 11:58:22 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Jul  1 11:58:22 2021][solver][debug]   :: generating calendar dedicated to the output
+[Thu Jul  1 11:58:22 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Jul  1 11:58:22 2021][solver][infos]     Partial week detected. Not allowed in Economy
+[Thu Jul  1 11:58:22 2021][solver][infos]     Time interval that has been requested: 1..8760
+[Thu Jul  1 11:58:22 2021][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..1
+[Thu Jul  1 11:58:22 2021][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Thu Jul  1 11:58:22 2021][solver][infos] No disabled thermal cluster removed before solver computations
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Removing disabled renewable clusters in from solver computations...
+[Thu Jul  1 11:58:22 2021][solver][infos] No disabled renewable cluster removed before solver computations
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Thu Jul  1 11:58:22 2021][solver][infos] No thermal cluster in 'must-run' mode
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos]   No binding constraint to consider
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] Summary
+[Thu Jul  1 11:58:22 2021][solver][infos]      areas: 1
+[Thu Jul  1 11:58:22 2021][solver][infos]      links: 0
+[Thu Jul  1 11:58:22 2021][solver][infos]      thermal clusters: 0
+[Thu Jul  1 11:58:22 2021][solver][infos]      thermal clusters (must-run): 0
+[Thu Jul  1 11:58:22 2021][solver][infos]      binding constraints: 0
+[Thu Jul  1 11:58:22 2021][solver][infos]      geographic trimming:false
+[Thu Jul  1 11:58:22 2021][solver][infos]      memory : 1Mo
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][debug] 
+[Thu Jul  1 11:58:22 2021][solver][debug] applying transformations required by the simulation...
+[Thu Jul  1 11:58:22 2021][solver][debug]   > adding DSM values
+[Thu Jul  1 11:58:22 2021][solver][infos] Initializing random number generators...
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Wind time-series generation, seed: 5489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Load time-series generation, seed: 1005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Hydro time-series generation, seed: 2005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Thermal time-series generation, seed: 3005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Solar time-series generation, seed: 4005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Time-series draws (MC scenario builder), seed: 5005488
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Noise on Unsupplied energy costs, seed: 6005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Noise on Spilled energy costs, seed: 7005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Noise on Thermal plants costs, seed: 8005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Noise on virtual Hydro costs, seed: 9005489
+[Thu Jul  1 11:58:22 2021][solver][debug]   random number generator: Initial reservoir levels, seed: 10005489
+[Thu Jul  1 11:58:22 2021][solver][debug] tsGenThermal = false
+[Thu Jul  1 11:58:22 2021][solver][infos] [UI] Progression map: D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\about-the-study\map
+[Thu Jul  1 11:58:22 2021][solver][infos]   system memory report: 23262 Mib / 32616 Mib,  71.320824% free
+[Thu Jul  1 11:58:22 2021][solver][infos] 
+[Thu Jul  1 11:58:22 2021][solver][infos] [UI] Display messages: On
+[Thu Jul  1 11:58:22 2021][solver][check] Running the simulation (economy)
+[Thu Jul  1 11:58:22 2021][solver][infos] Allocating resources...
+[Thu Jul  1 11:58:22 2021][solver][infos] Allocating resources...
+[Thu Jul  1 11:58:22 2021][solver][infos]  Variables:  (14Mo)
+[Thu Jul  1 11:58:22 2021][solver][infos]  + Areas                             
+[Thu Jul  1 11:58:22 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Jul  1 11:58:22 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Jul  1 11:58:22 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Jul  1 11:58:22 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Jul  1 11:58:22 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Jul  1 11:58:22 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Jul  1 11:58:22 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[Thu Jul  1 11:58:22 2021][solver][infos]      + Links                         
+[Thu Jul  1 11:58:22 2021][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Thu Jul  1 11:58:22 2021][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Thu Jul  1 11:58:22 2021][solver][infos]            LOOP FLOW         MWh     Loop flow
+[Thu Jul  1 11:58:22 2021][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Thu Jul  1 11:58:22 2021][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Thu Jul  1 11:58:22 2021][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Thu Jul  1 11:58:22 2021][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Thu Jul  1 11:58:22 2021][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Thu Jul  1 11:58:22 2021][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]  + Sets of Areas                     
+[Thu Jul  1 11:58:22 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Jul  1 11:58:22 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Jul  1 11:58:22 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Jul  1 11:58:22 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:22 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Jul  1 11:58:22 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Jul  1 11:58:22 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Jul  1 11:58:22 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Jul  1 11:58:23 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Jul  1 11:58:23 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Jul  1 11:58:23 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:23 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Jul  1 11:58:23 2021][solver][infos] 
+[Thu Jul  1 11:58:23 2021][solver][debug]   resizing timeseries numbers
+[Thu Jul  1 11:58:23 2021][solver][infos] Preparing time-series numbers...
+[Thu Jul  1 11:58:23 2021][solver][infos] Checking inter-modal correlation... (, loadsolarwindhydrothermal)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\load\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\load\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\solar\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\solar\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\hydro\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\hydro\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\wind\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\wind\area.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\renewables\area\la_rochelle.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\renewables\area\la_rochelle.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\renewables\area\oleron.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: [end] writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\ts-numbers\renewables\area\oleron.txt' (1x1)
+[Thu Jul  1 11:58:23 2021][solver][infos] MC-Years : [1 .. 1], total: 1
+[Thu Jul  1 11:58:23 2021][solver][infos]  Starting the simulation
+[Thu Jul  1 11:58:23 2021][solver][infos] parallel batch size : 1
+[Thu Jul  1 11:58:23 2021][solver][infos] Year 1
+[Thu Jul  1 11:58:23 2021][solver][infos] 
+[Thu Jul  1 11:58:23 2021][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Thu Jul  1 11:58:23 2021][solver][infos]  ( Problem Size :336 Variables 336 Constraints) 
+[Thu Jul  1 11:58:23 2021][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 4134
+[Thu Jul  1 11:58:23 2021][solver][infos] 
+[Thu Jul  1 11:58:23 2021][solver][infos] 
+[Thu Jul  1 11:58:23 2021][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Thu Jul  1 11:58:23 2021][solver][infos] 
+[Thu Jul  1 11:58:23 2021][solver][infos] Exporting the annual results
+[Thu Jul  1 11:58:23 2021][solver][debug]   (for 158 columns)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: initializing survey results (max: 158 variables)
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: results: output : `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001`
+[Thu Jul  1 11:58:23 2021][solver][infos] Exporting results : Area
+[Thu Jul  1 11:58:23 2021][solver][debug]  :: survey writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001\areas\area/values-hourly.txt`
+[Thu Jul  1 11:58:23 2021][solver][debug]  :: survey writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001\areas\area/values-daily.txt`
+[Thu Jul  1 11:58:23 2021][solver][debug]  :: survey writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001\areas\area/values-weekly.txt`
+[Thu Jul  1 11:58:23 2021][solver][debug]  :: survey writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001\areas\area/values-monthly.txt`
+[Thu Jul  1 11:58:23 2021][solver][debug]  :: survey writing `D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\economy\mc-ind\00001\areas\area/values-annual.txt`
+[Thu Jul  1 11:58:23 2021][solver][infos]  Elapsed time: Survey report: 172ms
+[Thu Jul  1 11:58:23 2021][solver][progress] task 0 mc, year: 0, 100
+[Thu Jul  1 11:58:23 2021][solver][infos]  Elapsed time: MC Years: 320ms
+[Thu Jul  1 11:58:23 2021][solver][infos] The simulation synthesis is disabled.
+[Thu Jul  1 11:58:23 2021][solver][infos] [UI] Quitting the solver gracefully
+[Thu Jul  1 11:58:23 2021][solver][infos]  Writing log file: D:\Users\pierregui\Desktop\ENR\studies\renewable-studies\ts-interp\renewable-2-clusters-ts-prod-factor\output\20210701-1158eco\simulation.log
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: clear study
+[Thu Jul  1 11:58:23 2021][solver][debug] Releasing runtime data
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: destroying area Area
+[Thu Jul  1 11:58:23 2021][solver][infos] Done.
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: destroying study 0x00000173DA250070
+[Thu Jul  1 11:58:23 2021][solver][debug]   :: clear study
