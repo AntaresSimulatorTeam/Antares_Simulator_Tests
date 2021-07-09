@@ -1,0 +1,8 @@
+Area	area	res	annual
+	VARIABLES	BEGIN	END
+	1	1	1
+
+Area	annual	la_rochelle
+		MWh
+		
+	Annual	8736000
