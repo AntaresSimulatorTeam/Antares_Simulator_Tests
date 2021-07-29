@@ -23,7 +23,7 @@
       <text>cluster 1 :</text>
     </paragraph>
     <paragraph>
-      <text>- group = pv solar</text>
+      <text>- group = solar pv</text>
     </paragraph>
     <paragraph>
       <text>- nominalcapacity = 500.000000</text>
@@ -47,7 +47,7 @@
       <text>- name = oleron</text>
     </paragraph>
     <paragraph>
-      <text>- group = wind off shore</text>
+      <text>- group = wind offshore</text>
     </paragraph>
     <paragraph>
       <text>- nominalcapacity = 1000.000000</text>

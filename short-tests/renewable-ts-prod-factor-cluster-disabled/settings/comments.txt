@@ -17,7 +17,7 @@
       <text>Cluster enabled :</text>
     </paragraph>
     <paragraph>
-      <text>- group = pv solar</text>
+      <text>- group = solar pv</text>
     </paragraph>
     <paragraph>
       <text>- nominalcapacity = 1000 MWh</text>

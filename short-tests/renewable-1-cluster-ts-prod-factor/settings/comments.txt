@@ -8,7 +8,7 @@
       <text>" "</text>
     </paragraph>
     <paragraph>
-      <text>One area containing a renewable cluster enabled (wind off shore)</text>
+      <text>One area containing a renewable cluster enabled (wind offshore)</text>
     </paragraph>
     <paragraph>
       <text></text>

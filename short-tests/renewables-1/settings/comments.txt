@@ -2,7 +2,7 @@
 <richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
   <paragraphlayout textcolor="#000000" fontpointsize="11" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Ubuntu" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
     <paragraph>
-      <text>One area with one renewable cluster (wind off shore)</text>
+      <text>One area with one renewable cluster (wind offshore)</text>
     </paragraph>
     <paragraph>
       <text>Load = 1000MWh</text>
