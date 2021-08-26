@@ -1,0 +1,4 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+area	force gen	force gen	Hard Coal	1	100.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+area	force no gen	force no gen	Hard Coal	1	100.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
+area	use global param	use global param	Hard Coal	1	100.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
