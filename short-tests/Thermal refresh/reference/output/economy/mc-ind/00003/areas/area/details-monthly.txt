@@ -1,0 +1,19 @@
+Area	area	de	monthly
+	VARIABLES	BEGIN	END
+	3	1	12
+
+Area	monthly		cluster	cluster	cluster
+			MWh	NP Cost - Euro	NODU
+	index	month			
+	1	JAN	19200	0	192
+	2	FEB	16800	0	168
+	3	MAR	16800	0	168
+	4	APR	16800	0	168
+	5	MAY	14400	0	144
+	6	JUN	16800	0	168
+	7	JUL	28800	0	288
+	8	AUG	19200	0	192
+	9	SEP	7200	0	72
+	10	OCT	26400	0	264
+	11	NOV	19200	0	192
+	12	DEC	16800	0	168
