@@ -1,0 +1,8 @@
+area 3	area	de	annual
+	VARIABLES	BEGIN	END
+	12	1	1
+
+area 3	annual	FR1	FR2	FR3	FR4	FR1	FR2	FR3	FR4	FR1	FR2	FR3	FR4
+		MWh	MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	0	0	0	0	0	0	0	0	0	0	0	0

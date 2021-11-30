@@ -1,0 +1,8 @@
+area 2	area	de	annual
+	VARIABLES	BEGIN	END
+	9	1	1
+
+area 2	annual	P2G	P3G	P4G	P2G	P3G	P4G	P2G	P3G	P4G
+		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	Annual	0	0	0	0	0	0	0	0	0

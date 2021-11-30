@@ -1,0 +1,19 @@
+area 4	area	de	monthly
+	VARIABLES	BEGIN	END
+	3	1	12
+
+area 4	monthly		LIGN	LIGN	LIGN
+			MWh	NP Cost - Euro	NODU
+	index	month	EXP	EXP	EXP
+	1	JUL	0	0	0
+	2	AUG	0	0	0
+	3	SEP	0	0	0
+	4	OCT	0	0	0
+	5	NOV	0	0	0
+	6	DEC	0	0	0
+	7	JAN	0	0	0
+	8	FEB	0	0	0
+	9	MAR	0	0	0
+	10	APR	0	0	0
+	11	MAY	0	0	0
+	12	JUN	0	0	0
