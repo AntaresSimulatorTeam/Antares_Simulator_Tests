@@ -1,0 +1,5 @@
+sink 1
+	source
+sink 2
+	source
+source
