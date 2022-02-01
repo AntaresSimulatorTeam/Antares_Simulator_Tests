@@ -1,8 +1,0 @@
-Area	area	de	annual
-	VARIABLES	BEGIN	END
-	3	1	1
-
-Area	annual	cluster	cluster	cluster
-		MWh	NP Cost - Euro	NODU
-				
-	Annual	175200	0	1752
