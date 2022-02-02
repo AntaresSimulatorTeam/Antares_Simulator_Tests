@@ -5,4 +5,4 @@ east	area	de	annual
 east	annual	b	p	sb	b	p	sb	b	p	sb
 		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
 		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
-	Annual	35465266	50298	3361746	0	0	0	44412	279	10171
+	Annual	35465266	50298	3361746	0	0	0	44412	278	10171
