@@ -1,8 +1,0 @@
-F	area	de	annual
-	VARIABLES	BEGIN	END
-	9	1	1
-
-F	annual	BASE	INT	PEAK	BASE	INT	PEAK	BASE	INT	PEAK
-		MWh	MWh	MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU
-										
-	Annual	332093947	80535177	131738	0	0	0	346117	106501	170
